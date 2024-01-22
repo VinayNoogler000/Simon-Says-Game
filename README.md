@@ -9,7 +9,6 @@ In this game, players memorize and input a sequence of colors shown at each leve
 
 Tech Deep Dive:
     HTML/CSS: Carefully designed a sleek interface featuring four colorful buttons for an user-friendly experience.
-
     JavaScript: Applied DOM manipulation and skillful event handling to bring the game to life, ensuring seamless functionality.
 
 
