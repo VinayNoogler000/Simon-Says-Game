@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+    /* display: inline-block; This declaration, to give space between buttons.*/
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: rgb(207, 62, 108);
+    ;
+}
+
+.green {
+    background-color: rgb(59, 130, 169);
+    ;
+}
+
+.yellow {
+    background-color: rgb(247, 137, 59);
+    ;
+}
+
+.blue {
+    background-color: rgb(102, 137, 230);
+    ;
+}
+
+.gameFlash {
+    /*means, the btn will flash, by changing the bgColor to white, when the game
+            itself interacts with the button.  */
+    background-color: white;
+}
+
+.userFlash {
+    /*means, the btn will flash, when the user clicks the button. */
+    background-color: green;
+}
+
+.gameOver-Flash {
+    background-color: red;
+}
